@@ -1,0 +1,25 @@
+@font-face{
+    font-family: mySpecialFont;
+    src:url("font.otf");
+    }
+
+body{
+    background:linear-gradient(#262A2A,#010101);
+    color:aliceblue;
+    height:1000px;
+    font-family: mySpecialFont;
+    background-image:url("../imgs/bg.png");
+}
+a{
+    /* display:inline-block; */
+    margin-right:10%;
+    float: right;
+}
+h1{
+    text-align:center;
+    padding-top:10%;
+    padding-bottom: 2px;;
+    margin-bottom: 2px;
+    font-size:300%;
+}
+

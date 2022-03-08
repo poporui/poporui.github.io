@@ -1,0 +1,234 @@
+@font-face{
+    font-family: mySpecialFont;
+    src:url("../fonts/font.otf");
+    }
+    @font-face{
+        font-family: mySpecialFontTwo;
+        src:url("../fonts/QuattrocentoSans-Regular.ttf");
+        }
+    
+body{
+    background:linear-gradient(#262A2A,#010101);
+    color:aliceblue;
+    height:1000px;
+    font-family: mySpecialFontTwo;
+    background-image:url("../imgs/bg.png");
+    background-size:100%;
+}
+
+a{
+    /* display:inline-block; */
+    margin-right:10%;
+    float: right;
+    font-size:18px;
+}
+
+a.link{
+    color:aliceblue;
+}
+
+a.visited{
+    color:aliceblue;
+}
+
+a.hover{
+    color:aqua;
+}
+
+h1{
+    text-align:center;
+    padding-top:10%;
+    padding-bottom: 2px;;
+    margin-bottom: 2px;
+    font-size:90px;
+    font-family: mySpecialFont;
+}
+
+h2{
+    font-size:40px;
+    line-height:100%;
+}
+
+#one{
+    text-align: center;
+    padding-bottom:0px;
+    margin:10px;
+    /* border: 3px solid #73AD21; */
+}
+.center{
+    font-size:20px;
+    font-family: mySpecialFonttwo;
+    margin: auto;
+    width: 80%;
+    /* padding: 10px; */
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+    font-falimy:second;
+    /* border: 3px solid #73AD21; */
+}
+
+div{
+    /* border: 5px solid red; */
+    /* margin:auto; */
+    text-align:center;
+    }
+
+section{
+    /* margin:auto; */
+    /* border: 5px solid red; */
+    display:inline-block;
+    width:30%;
+    margin-bottom: 40px;
+}
+
+.legend{
+    font-size:15px;
+    line-height:2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align:left;
+    display:inline-block;
+}
+
+#titleLegend{
+    display:inline-block;
+    width: 40%;
+    margin-left:10%;
+    margin-bottom:0px;
+    padding-bottom:1px;
+    line-height:20px;
+}
+
+#races{
+    margin-left:10%;
+    line-height:1px;
+    border-top:1.5px solid aliceblue;
+    padding-top:13px;
+    width: 37%;
+}
+
+#hrOne{
+    margin-left:10%;
+    width:300px;
+    color:aliceblue;
+    width: 40%;
+}
+
+
+#flower{
+    width: 35%;
+    float: right;
+    margin-right: 6%;
+    padding-top: 50px;
+}
+
+#mainBox {
+    position: relative;
+    width: 40%;
+    height: 300px;
+    /* background: white; */
+    padding: 0;
+    margin: 0;
+    margin-left: 10%;
+    display: flex;
+}
+
+#mainBox p{
+padding:0px;
+margin-top:0px;
+margin-top:10px;
+font-size:15px;
+}
+
+
+#one {
+    width: 200px;
+    height: 200px;
+    /* background: red; */
+    padding: 0;
+    margin: 0;
+}
+#deathImage{
+    width:90%;
+    margin:5%;
+}
+
+#two {
+    padding: 0;
+    margin: 0;
+    margin-left:10px;
+    width: 400px;
+    height: 360px;
+    /* background: orange; */
+    border-left:1.5px solid aliceblue;
+}
+#two p{
+    padding-left:2%;
+}
+#vaccineImage{
+    margin-top:20px;
+    margin-left:10px;
+    width:250px;
+}
+
+#three {
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 130px;
+    /* background: green; */
+    border-top:1.5px solid aliceblue;
+}
+
+#totalImage{
+    width:90%;
+    margin:5%;
+}
+
+
+#races {
+    position: relative;
+    padding-left: 3%;
+    height:150px;
+    line-height:5px;
+}
+.circle{
+    left: 5px;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius: 200px;
+}
+#firstCircle {
+    top: 25px;
+    background:#00D7FF;
+}
+#secondCircle {
+    background: #AB00FF;
+}
+#thirdCircle{
+    background: #004EDA;
+}
+#forthCircle{
+    background:#00C7B7;
+}
+#fifthCircle{
+    background:#1299BD;
+}
+#sixthCircle{
+    background:#4F00FF;
+}
+#seventhCircle{
+    background:#932273;
+}
+
+#resource{
+    margin-top:100px;
+    margin-left:10px;
+    margin-right:10%;
+    margin-bottom: 20px;
+    width:100%;
+    text-align:right;
+}
+
